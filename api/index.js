@@ -12,9 +12,7 @@ const router = express.Router();
 const path = require("path");
 
 
-app.use(cors({
-    origin: ["http://localhost:8800","https://cozy-starburst-5070ee.netlify.app"]
-}));
+
 
 dotenv.config();
 
