@@ -42,6 +42,3 @@
   },
   "proxy": "http://localhost:8800/api"
 }
-"engines": {
-  "node": "18"
-}
