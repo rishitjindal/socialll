@@ -11,7 +11,9 @@ const postRoute = require("./routes/posts");
 const router = express.Router();
 const path = require("path");
 
-
+app.use(cors({
+    origin: ["http://localhost:3000","https://cozy-starburst-5070ee.netlify.app"]
+}));
 
 
 dotenv.config();
